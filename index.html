@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annika Balatero | Photography Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <i class="fas fa-camera"></i> NIKAPICS
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#portfolio"><i class="fas fa-images"></i> Portfolio</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+    <button class="mobile-menu-btn" id="mobileMenuBtn">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>
+          Capturing <span class="highlight">Moments</span>
+          That Matter
+        </h1>
+        <p><i class="fas fa-quote-left"></i> I'm Annika Balatero, a Multimedia Arts student passionate about photography. Through my lens, I capture emotions, stories, and the beauty hidden in everyday life. <i class="fas fa-quote-right"></i></p>
+        <div class="cta-buttons">
+          <a href="#portfolio" class="btn">
+            <i class="fas fa-folder-open"></i> View Portfolio
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-frame">
+          <img src="profile.jpg" alt="Annika Balatero">
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <div class="image-frame">
+          <img src="profile.jpg" alt="About Annika">
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2><i class="fas fa-palette"></i> About Me</h2>
+        <p><i class="fas fa-star"></i> I'm a Multimedia Arts student with a deep passion for visual storytelling. While I love exploring various forms of creativity, photography holds a special place in my heart.</p>
+        <p><i class="fas fa-camera-retro"></i> My work focuses on capturing authentic moments—whether it's the quiet comfort of a beloved pet, the cinematic beauty of everyday spaces, or the confident expressions of the people around me. Each photograph tells a story, preserves a memory, or reveals beauty in unexpected places.</p>
+        <p><i class="fas fa-heart"></i> Through this portfolio, I share my journey as a photographer, showcasing the moments and emotions that inspire me to keep creating.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="section-header">
+      <h2><i class="fas fa-images"></i> Portfolio</h2>
+      <p>A collection of my favorite captures</p>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid"></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <h2><i class="fas fa-comments"></i> Let's Connect</h2>
+      <p>I'm always open to collaborations and new projects. Feel free to reach out through any of my social channels.</p>
+      <div class="social-links">
+        <a href="https://m.facebook.com/annika.balatero/?" target="_blank" class="social-link fb">
+          <i class="fab fa-facebook-f"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/ann_nikkaniks/" target="_blank" class="social-link ig">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.tiktok.com/@ann_art15" target="_blank" class="social-link tt">
+          <i class="fab fa-tiktok"></i> TikTok
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><i class="fas fa-copyright"></i> 2024 Annika Balatero. All rights reserved. <i class="fas fa-camera"></i></p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-image">
+        <img id="modalImg" src="" alt="">
+      </div>
+      <div class="modal-info">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <div class="modal-tags" id="modalTags"></div>
+        <div class="modal-nav">
+          <button class="btn btn-outline" id="prevBtn">
+            <i class="fas fa-arrow-left"></i> Previous
+          </button>
+          <button class="btn" id="nextBtn">
+            Next <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
