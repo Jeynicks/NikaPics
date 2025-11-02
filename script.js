@@ -118,6 +118,102 @@ const projects = [
     "tags": [
       "auto mode"
     ]
+  },
+  {
+    "name": "The Quiet Muse",
+    "description": "My first capture in auto mode lost the subtle tones of her fur. Through manual mode, I adjusted the light to reveal her calm expression and the quiet strength in her gaze",
+    "image": "projects/the_quite_museV2.jpg",
+    "tags": [
+      "auto mode"
+    ]
+  },
+  {
+    "name": "Confidence in a Suit",
+    "description": "In auto mode, the background lights overpowered his face. Retaking it manually gave me control over brightness and focus, allowing his confidence to stand out naturally.",
+    "image": "projects/confidence_in_a_suitV2.jpg",
+    "tags": [
+      "auto mode"
+    ]
+  },
+  {
+    "name": "Unscripted Elegance",
+    "description": "The auto version looked flat, missing the emotion of the moment. Using manual settings, I fine-tuned the light and shadows to bring out the softness and spontaneity I wanted to show.",
+    "image": "projects/unscripted_eleganceV2.jpg",
+    "tags": [
+      "auto mode"
+    ]
+  },
+  {
+    "name": "Morning Walk",
+    "description": "In auto mode, the morning light looked too bright and washed out. Through manual adjustments, I softened the exposure to reflect the calm and peace of that early walk.",
+    "image": "projects/morning_walkV2.jpg",
+    "tags": [
+      "auto mode"
+    ]
+  },
+  {
+    "name": "Scenes of Daily Life",
+    "description": "In auto mode, the details were there, but the feeling was not. Using manual settings, I brought warmth and focus to the ordinary — making the everyday feel worth noticing.",
+    "image": "projects/scenes_of_daily_lifeV2.jpg",
+    "tags": [
+      "auto mode"
+    ]
+  },
+  {
+    "name": "Perspective",
+    "description": "My first shot didn’t capture the depth I was aiming for. With manual mode, I adjusted focus and aperture to emphasize the angle and lines that tell the story of perspective.",
+    "image": "projects/perspectiveV2.jpg",
+    "tags": [
+      "auto mode"
+    ]
+  },
+  {
+    "name": "Lines and Light",
+    "description": "The auto capture looked overexposed, losing the balance between geometry and glow. Retaking it manually helped me define the structure and let the light flow naturally.",
+    "image": "projects/lines_and_lightV2.jpg",
+    "tags": [
+      "auto mode"
+    ]
+  },
+  {
+    "name": "Balanced Glow",
+    "description": "Symmetrical Balance\nThe photo shows two identical lamp posts centered in the frame. The symmetry makes the image feel neat, calm, and pleasing to look at.",
+    "image": "projects/balanced_glow.jpg",
+    "tags": [
+      "COMPOSITION"
+    ]
+  },
+  {
+    "name": "Through The Bars",
+    "description": "Frame Within a Frame\nThe metal bars act as a natural frame, leading the viewer’s eyes toward what’s behind them. It makes the photo feel like you’re peeking into another space.",
+    "image": "projects/through_the_bars.jpg",
+    "tags": [
+      "COMPOSITION"
+    ]
+  },
+  {
+    "name": "Centered Fountain",
+    "description": "Symmetrical Composition\nThe fountain stands right at the center of the frame, creating balance and harmony. Its placement gives the photo a peaceful and steady atmosphere.",
+    "image": "projects/centered_fountain.jpg",
+    "tags": [
+      "COMPOSITION"
+    ]
+  },
+  {
+    "name": "Tented Path",
+    "description": "Leading Lines\nThe colorful tents form diagonal lines that guide the viewer’s eyes toward the middle of the frame. The strong colors and direction make the image feel dynamic and focused.",
+    "image": "projects/tented_path.jpg",
+    "tags": [
+      "COMPOSITION"
+    ]
+  },
+  {
+    "name": "The Painter’s Moment",
+    "description": "Framing / Depth Focus\nThis photo captures a man painting, with the background softly blurred. The framing emphasizes the subject and tells a quiet story of creativity in the middle of the city.",
+    "image": "projects/the_painter_moment.jpg",
+    "tags": [
+      "COMPOSITION"
+    ]
   }
 ];
 
