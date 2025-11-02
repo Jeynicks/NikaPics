@@ -214,6 +214,54 @@ const projects = [
     "tags": [
       "COMPOSITION"
     ]
+  },
+  {
+    "name": "Night Hustle",
+    "description": "Under the city lights, vendors continue their routine, selling goods late into the night. The photo captures the persistence of Cebu’s street workers — proof that the city never truly sleeps.",
+    "image": "projects/night_hustle.jpg",
+    "tags": [
+      "Street Photography"
+    ]
+  },
+  {
+    "name": "Sharing Warmth",
+    "description": "Amid the quiet night, a candle seller takes a short break to share food. It’s a small, tender moment that reflects compassion and companionship even in the simplest corners of the street",
+    "image": "projects/sharing_warmth.jpg",
+    "tags": [
+      "Street Photography"
+    ]
+  },
+  {
+    "name": "Rider's Rush",
+    "description": "A GrabFood driver waits beside the road, ready for the next delivery. His presence represents the modern rhythm of city life — fast, digital, yet still deeply human in its drive to serve.",
+    "image": "projects/riders_rush.jpg",
+    "tags": [
+      "Street Photography"
+    ]
+  },
+  {
+    "name": "Ice Candy Calls",
+    "description": "A man shouts what he’s selling, his voice echoing through the night. His determined expression reflects the hardworking spirit of Cebu’s street vendors who keep going despite the late hour.",
+    "image": "projects/ice_candy_calls.jpg",
+    "tags": [
+      "Street Photography"
+    ]
+  },
+  {
+    "name": "Light of Resilience",
+    "description": "Captured in the afternoon glow, a parol hangs proudly — a symbol of hope and festivity. It reminds us that even after long hours of work, Filipinos still find joy and pride in simple traditions.",
+    "image": "projects/light_of_resilience.jpg",
+    "tags": [
+      "Street Photography"
+    ]
+  },
+  {
+    "name": "Carrying Through",
+    "description": "Two vendors help each other carry their goods while crossing the street. The image shows unity and perseverance — a quiet act of teamwork in the daily flow of city life.",
+    "image": "projects/carrying_through.jpg",
+    "tags": [
+      "Street Photography"
+    ]
   }
 ];
 
