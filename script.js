@@ -262,6 +262,14 @@ const projects = [
     "tags": [
       "Street Photography"
     ]
+  },
+  {
+    "name": "Before the Deadline",
+    "description": "This photograph was created using a simple single-light setup to maintain focus on the subject and natural shadows. The light was positioned at an angle to add depth and highlight texture without overpowering the scene. The shoot was carefully planned through lighting simulation and testing to ensure the final image matched the intended mood and composition.",
+    "image": "projects/deadline.jpg",
+    "tags": [
+      "Deadline"
+    ]
   }
 ];
 
